@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEFCA4322A644B8B00BC6CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCA4312A644B8B00BC6CB3 /* main.m */; };
-		CEFCA4392A644C7000BC6CB3 /* twofile.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCA4382A644C7000BC6CB3 /* twofile.m */; };
-		CEFCA43B2A644D7000BC6CB3 /* threefile.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCA43A2A644D7000BC6CB3 /* threefile.m */; };
+		CE22A4B82A65931700BEF3E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22A4B72A65931700BEF3E3 /* main.m */; };
+		CEFCA4322A644B8B00BC6CB3 /* calculat.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCA4312A644B8B00BC6CB3 /* calculat.m */; };
+		CEFCA4392A644C7000BC6CB3 /* uravnenie.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCA4382A644C7000BC6CB3 /* uravnenie.m */; };
+		CEFCA43B2A644D7000BC6CB3 /* log.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCA43A2A644D7000BC6CB3 /* log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE22A4B72A65931700BEF3E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEFCA42E2A644B8B00BC6CB3 /* ObjectiveOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveOne; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFCA4312A644B8B00BC6CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEFCA4382A644C7000BC6CB3 /* twofile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twofile.m; sourceTree = "<group>"; };
-		CEFCA43A2A644D7000BC6CB3 /* threefile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = threefile.m; sourceTree = "<group>"; };
+		CEFCA4312A644B8B00BC6CB3 /* calculat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculat.m; sourceTree = "<group>"; };
+		CEFCA4382A644C7000BC6CB3 /* uravnenie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uravnenie.m; sourceTree = "<group>"; };
+		CEFCA43A2A644D7000BC6CB3 /* log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = log.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,10 @@
 		CEFCA4302A644B8B00BC6CB3 /* ObjectiveOne */ = {
 			isa = PBXGroup;
 			children = (
-				CEFCA4312A644B8B00BC6CB3 /* main.m */,
-				CEFCA4382A644C7000BC6CB3 /* twofile.m */,
-				CEFCA43A2A644D7000BC6CB3 /* threefile.m */,
+				CEFCA4312A644B8B00BC6CB3 /* calculat.m */,
+				CEFCA4382A644C7000BC6CB3 /* uravnenie.m */,
+				CEFCA43A2A644D7000BC6CB3 /* log.m */,
+				CE22A4B72A65931700BEF3E3 /* main.m */,
 			);
 			path = ObjectiveOne;
 			sourceTree = "<group>";
@@ -125,9 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFCA43B2A644D7000BC6CB3 /* threefile.m in Sources */,
-				CEFCA4392A644C7000BC6CB3 /* twofile.m in Sources */,
-				CEFCA4322A644B8B00BC6CB3 /* main.m in Sources */,
+				CEFCA43B2A644D7000BC6CB3 /* log.m in Sources */,
+				CEFCA4392A644C7000BC6CB3 /* uravnenie.m in Sources */,
+				CE22A4B82A65931700BEF3E3 /* main.m in Sources */,
+				CEFCA4322A644B8B00BC6CB3 /* calculat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
